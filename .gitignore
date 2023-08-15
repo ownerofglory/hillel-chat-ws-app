@@ -13,3 +13,5 @@ target/
 
 # App
 /static
+src/main/frontend/dist
+src/main/frontend/.cache

@@ -11,7 +11,7 @@ const messageInputSection = document.getElementById('messageInputSection')
 const sendMessageButton = document.getElementById('sendMessageButton')
 const userConnectForm = document.getElementById('userConnectForm')
 const disconnectButton = document.getElementById('disconnectButton')
-const baseUrl = 'wss://tomcat.ownerofglory.com/hillel-chat-app/chat/'
+const baseUrl = 'ws://localhost:8090/hillel-chat-app/chat/'
 
 let ws;
 let username;
